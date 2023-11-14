@@ -1,9 +1,11 @@
 // blog_app/config/db.js
 
 import mongoose from "mongoose";
+import dotenv from "dotenv";
+dotenv.config();
 
 export default function connectDB() {
-  const url = "mongodb://mongoadmin:secret@127.0.0.1:27017";
+  const url = process.env.MONGO_CONNECTION_STRING;
 
   try {
     mongoose.connect(url, {
