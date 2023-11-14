@@ -8,6 +8,7 @@ export default function connectDB() {
   const url = process.env.MONGO_CONNECTION_STRING;
 
   try {
+    console.log(url);
     mongoose.connect(url, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
