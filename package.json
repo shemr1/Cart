@@ -4,7 +4,6 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "react-scripts test",
     "start": "node server.js"
   },
   "keywords": [],
