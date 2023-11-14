@@ -53,4 +53,4 @@ jobs:
           app-name: 'KrisKakes'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_030E46B9F8C041CE90C4F1C007810406 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FFB66519FAC842B78D83330CC5A01827 }}
