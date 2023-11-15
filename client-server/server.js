@@ -2,7 +2,7 @@ import express, { json } from "express"; //Line 1
 const port = process.env.PORT || 5000; //Line 3
 import cors from "cors";
 import { request } from "http";
-import { default as connectDB } from "../Cart/config/db.js";
+import { default as connectDB } from "./config/db.js";
 import dotenv from "dotenv";
 dotenv.config();
 import Stripe from "stripe";
